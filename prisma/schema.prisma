@@ -4,7 +4,7 @@ generator client {
 
 datasource db {
   provider = "sqlite"
-  url      = "file:./dev.db"
+  url      = "libsql://phanbong-quoctrang12.aws-ap-south-1.turso.io?authToken=eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJhIjoicnciLCJpYXQiOjE3ODEwNTc5ODMsImlkIjoiMDE5ZWFmNTMtNzAwMS03Mjc4LWI1NzItYzI2NTk2YTdkMmM1IiwicmlkIjoiMDI4NmZiODQtN2Q0My00YTVmLWJkYmItYjI5NWY1ZWRhY2M0In0.qQtTHycQ4Z0R22Hx0gtRU4FJXGme856HRd-qI7fDGihkuwTEhtdXN1BmTYDCgb__aZAgvm-Q-rRqj-TxbVmaCA"
 }
 
 model User {
